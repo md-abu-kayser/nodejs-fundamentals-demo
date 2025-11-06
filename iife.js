@@ -1,7 +1,8 @@
 ((require, module, __dirname, __filename) => {
   let x = 10;
   ((name) => {
-    let x = 10; // block scoop
+    // block scoop
+    let x = 10;
     console.log(`Learning ${name}`);
   })("node");
   console.log(x);

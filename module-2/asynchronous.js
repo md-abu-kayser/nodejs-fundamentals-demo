@@ -1,4 +1,5 @@
 // Asynchronous
+// ----------------------------->
 // 2. file read -> single thread -> event loop -> thread pool -> task completed
 
 const fs = require("fs");

@@ -5,5 +5,3 @@ const multiply = (a, b) => a * b;
 const y = 25;
 
 export { x, add, multiply, y };
-
-// console.log(module);

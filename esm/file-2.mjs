@@ -6,5 +6,3 @@ const multiply = (a, b) => a * b;
 export { x, multiply };
 
 export default add;
-
-// console.log(module);
