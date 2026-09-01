@@ -1,7 +1,3 @@
-// ============================================
-// CommonJS Module Import & Aliasing
-// ============================================
-
 // Import all exports from file-2
 const file2 = require("./file-2.js");
 
