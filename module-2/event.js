@@ -1,21 +1,66 @@
 const EventEmitter = require("node:events");
 
-class schoolBell extends EventEmitter {}
+// --------------------------------------------
+// Create Custom EventEmitter Class
+// --------------------------------------------
 
-const sch = new schoolBell();
-sch.on("ring", () => {
-  console.log("Yahoo!! school class off now");
+class SchoolBell extends EventEmitter {}
+
+// --------------------------------------------
+// Create EventEmitter Instances
+// --------------------------------------------
+
+const schoolBell = new SchoolBell();
+
+// ============================================
+// Ring Event
+// ============================================
+
+schoolBell.on("ring", () => {
+  console.log("🔔 Ring! Yahoo! School class is over.");
 });
 
-const oneMoreClass = new schoolBell();
-sch.on("ring", () => {
-  console.log("ringing but one more call left");
+schoolBell.on("ring", () => {
+  console.log("🎉 Students are leaving the classroom.");
 });
 
-const broken = new schoolBell();
-sch.on("broken", () => {
-  console.log("broken the ring bell");
+// ============================================
+// One More Class Event
+// ============================================
+
+schoolBell.on("oneMoreClass", () => {
+  console.log("📚 Wait! One more class is left.");
 });
 
-sch.emit("ring");
-sch.emit("broken");
+// ============================================
+// Broken Bell Event
+// ============================================
+
+schoolBell.on("broken", () => {
+  console.log("⚠️ The school bell is broken!");
+});
+
+// ============================================
+// Error Event
+// ============================================
+
+schoolBell.on("error", (error) => {
+  console.log("❌ Bell Error:", error.message);
+});
+
+// ============================================
+// Emit Events
+// ============================================
+
+console.log("========== School Bell System ==========");
+
+console.log("\n1. Ringing bell...");
+schoolBell.emit("ring");
+
+console.log("\n2. Checking today's schedule...");
+schoolBell.emit("oneMoreClass");
+
+console.log("\n3. Checking bell condition...");
+schoolBell.emit("broken");
+
+console.log("\n4. School bell system completed.");
