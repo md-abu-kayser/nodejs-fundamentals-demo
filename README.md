@@ -5,18 +5,18 @@
 <p align="center">
 
   <a href="https://nodejs.org/docs/latest/api/" target="_blank">
-    <img src="https://img.shields.io/badge/Node.js-24%20LTS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 24 LTS" />
+    <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 18+" />
   </a>
 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://img.shields.io/badge/JavaScript-ES2024%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES2024+" />
+    <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES6+" />
   </a>
 
   <a href="https://nodejs.org/docs/latest/api/modules.html" target="_blank">
     <img src="https://img.shields.io/badge/CommonJS-Supported-0A0A0A?style=for-the-badge" alt="CommonJS" />
   </a>
 
-  <a href="https://nodejs.org/docs/latest/api/esm.html" target="_blank">
+  <a href="https://nodejs.org/api/esm.html" target="_blank">
     <img src="https://img.shields.io/badge/ESM-Supported-0A0A0A?style=for-the-badge" alt="ES Modules" />
   </a>
 
