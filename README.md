@@ -3,11 +3,27 @@
 > A practical, code-first repository for understanding Node.js fundamentals, module systems, runtime behavior, event-driven programming, filesystem APIs, scope, and asynchronous I/O.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 18+" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES6+" />
-  <img src="https://img.shields.io/badge/CommonJS-Supported-0A0A0A?style=for-the-badge" alt="CommonJS" />
-  <img src="https://img.shields.io/badge/ESM-Supported-0A0A0A?style=for-the-badge" alt="ES Modules" />
-  <img src="https://img.shields.io/badge/License-MIT-2E7D32?style=for-the-badge" alt="MIT License" />
+
+  <a href="https://nodejs.org/docs/latest/api/" target="_blank">
+    <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js 18+" />
+  </a>
+
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript ES6+" />
+  </a>
+
+  <a href="https://nodejs.org/docs/latest/api/modules.html" target="_blank">
+    <img src="https://img.shields.io/badge/CommonJS-Supported-0A0A0A?style=for-the-badge" alt="CommonJS" />
+  </a>
+
+  <a href="https://nodejs.org/api/esm.html" target="_blank">
+    <img src="https://img.shields.io/badge/ESM-Supported-0A0A0A?style=for-the-badge" alt="ES Modules" />
+  </a>
+
+  <a href="https://opensource.org/license/mit" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-2E7D32?style=for-the-badge" alt="MIT License" />
+  </a>
+
 </p>
 
 <p align="center">
